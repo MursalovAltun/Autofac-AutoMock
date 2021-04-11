@@ -1,0 +1,14 @@
+*.suo
+/.vs
+bin
+obj
+.vscode
+*.js
+*.csproj.user
+2payroll.sln.DotSettings.user
+Blob
+/.idea
+receipts.recognition/images
+receipts.recognition/prepared images
+receipts.recognition/visualization
+.DS_Store

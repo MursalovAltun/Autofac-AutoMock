@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=43df0e3f_002D8726_002D49fb_002D8831_002D0879316c8ed7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldCreateTodo" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::689E85C3-F57D-4ECD-AD88-201096CF23BF::net5.0::UnitTests.Components.Services.TodoServiceTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::689E85C3-F57D-4ECD-AD88-201096CF23BF::net5.0::UnitTests.Components.Profiles.GeneralProfilesTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::689E85C3-F57D-4ECD-AD88-201096CF23BF::net5.0::UnitTests.Components.Profiles.TodoProfileTests.ShouldMapTodoToTodoDTO&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::689E85C3-F57D-4ECD-AD88-201096CF23BF::net5.0::UnitTests.Components.Validators.TodoCreateRequestValidatorTests.ReturnsValidWhenModelIsValid&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::689E85C3-F57D-4ECD-AD88-201096CF23BF::net5.0::UnitTests.Components.Validators.TodoCreateRequestValidatorTests.ReturnsInvalidWhenNameIsNotValid&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::689E85C3-F57D-4ECD-AD88-201096CF23BF::net5.0::UnitTests.Components.Validators.TodoCreateRequestValidatorTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
