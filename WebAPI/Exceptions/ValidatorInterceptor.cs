@@ -4,31 +4,12 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Exceptions;
 
-namespace WebAPI.Validators
+namespace WebAPI.Exceptions
 {
     [InstancePerLifetimeScope(As = new[] {typeof(IValidatorInterceptor)})]
     public class ValidationInterceptor : IValidatorInterceptor
     {
-        public IValidationContext BeforeMvcValidation(ControllerContext controllerContext,
-            IValidationContext validationContext)
-        {
-            return validationContext;
-        }
-
-        public ValidationResult AfterMvcValidation(ControllerContext controllerContext,
-            IValidationContext commonContext,
-            ValidationResult result)
-        {
-            if (result.Errors.Any())
-            {
-                throw new FluentValidationException(result.Errors);
-            }
-
-            return result;
-        }
-
         public IValidationContext BeforeAspNetValidation(ActionContext actionContext, IValidationContext commonContext)
         {
             return commonContext;

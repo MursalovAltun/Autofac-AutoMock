@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.DTO.Todo;
+using WebAPI.Exceptions;
 using WebAPI.Services.Abstraction;
 
 namespace WebAPI.Controllers
@@ -22,6 +23,8 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<TodoDTO> Create([FromBody] TodoCreateRequest request)
         {
+            throw new BadRequestException(ErrorCodes.TEST);
+            
             return _mapper.Map<TodoDTO>(await _service.AddAsync(request));
         }
 
